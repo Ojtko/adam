@@ -9,9 +9,14 @@ public class Main {
         lh1.setA(10);
         System.out.println(lh1.getA());
         /////////////////////////
-        GenericHolder gh1 = new GenericHolder("21222");
+        GenericHolder gh1 = new GenericHolder(123);
         System.out.println(gh1.getA());
-        gh1.setA("ghads");
+        gh1.setA(222);
         System.out.println(gh1.getA());
+        ///////////////////////
+        ObjectHolder oh1 = new ObjectHolder(123);
+        System.out.println(oh1.getA());
+        oh1.setA(222);
+        System.out.println(oh1.getA());
     }
 }

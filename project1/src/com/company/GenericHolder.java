@@ -14,6 +14,4 @@ public class GenericHolder<AnyType> {
     public void setA(AnyType a) {
         this.a = a;
     }
-
-
 }
