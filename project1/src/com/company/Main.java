@@ -5,10 +5,13 @@ public class Main {
     public static void main(String[] args) {
         LiczbaHolder lh1 = new LiczbaHolder(2);
         LiczbaHolder lh2 = new LiczbaHolder(30);
-        for(int i = 0; i<lh2.a; i++){
-            lh1.a = lh1.a * lh1.a;
-            System.out.println(lh1.a);
-        }
-
+        System.out.println(lh1.getA());
+        lh1.setA(10);
+        System.out.println(lh1.getA());
+        /////////////////////////
+        GenericHolder gh1 = new GenericHolder("21222");
+        System.out.println(gh1.getA());
+        gh1.setA("ghads");
+        System.out.println(gh1.getA());
     }
 }
